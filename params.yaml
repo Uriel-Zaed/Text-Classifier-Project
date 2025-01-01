@@ -1,0 +1,11 @@
+TrainingArguments:
+    output_dir: artifacts/model/results
+    evaluation_strategy: epoch
+    save_strategy: epoch
+    logging_dir: ./logs
+    logging_steps: 10
+    per_device_train_batch_size: 8
+    per_device_eval_batch_size: 8
+    num_train_epochs: 1
+    load_best_model_at_end: True
+
