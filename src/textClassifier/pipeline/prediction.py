@@ -18,6 +18,13 @@ class PredictionPipeline:
         print(text)
 
         output = sentiment_pipeline(text)
+
+        for item in output:
+            if item['label'] == 'LABEL_1':
+                item['label'] = 'positive'
+            elif item['label'] == 'LABEL_0':
+                item['label'] = 'negative'
+
         print("\nModel Prediction:")
         print(output)
 

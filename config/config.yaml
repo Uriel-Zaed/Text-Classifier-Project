@@ -25,5 +25,5 @@ model_trainer:
 
 
 predict:
-  model_path: artifacts/model_trainer/model
-  tokenizer_path: artifacts/model_trainer/tokenizer
+  model_path: artifacts/model_trainer
+  tokenizer_path: artifacts/model_trainer
