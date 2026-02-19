@@ -67,7 +67,7 @@ cd Text-Classifier-Project
 python -m venv .venv
 source .venv/bin/activate  # mac/linux
 pip install -r requirements.txt
-
+```
 
 
 📊 Methodology
